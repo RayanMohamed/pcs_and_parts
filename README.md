@@ -19,9 +19,11 @@ If you have any issues with setting up the app locally check laravel docs: https
 * pull updated version of the repo from github 
 * after that you may need to clear laravel cache
 
-# TODO
-* consolidate repeating code in controllers and views in one place.
-* add error messages for all forms.
-* add proper validation for all forms.
-* sign up with google account
-* role ://
+In this branch I have managed to do the following;
+
+* added error messages for login and registration forms.
+*the registration form for the vendor was implemented with a email confirmation feature where they can not login until they confirm their email.
+* added proper validation for login and registration forms.
+* differentiated the roles into Admin/Vendor and Buyers
+*Admin dashboard has vendor and buyers management feature where the admin can deactive vendors
+* Created forms to capture the personal and business details of the vendors.
